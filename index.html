@@ -41,10 +41,40 @@ var blogVue = new Vue({
     el: '#blogPosts',
     data: {
         posts: [
-            {title: 'First Post', username: 'Nimish', date: 'Sep 17, 2019', content: 'This is the content of my very interesting first post.'},
-            {title: 'Second Post', username: 'Nimish', date: 'Sep 19, 2019', content: 'This is the content of my very interesting second post. I hope you like it please share and like.'},
+            {title: 'First Post', username: 'Stephanie', date: 'Sep 17, 2019', content: 'This is the content of my very interesting first post.'},
+            {title: 'Second Post', username: 'Stephanie', date: 'Sep 19, 2019', content: 'This is the content of my very interesting second post. I hope you like it please share and like.'},
         ]
     }
+})
+var postBlogVue = new Vue({
+ 
+ el: '#blogPostCreation',
+
+ data: {
+     title: '',
+     username: '',
+     date: '',
+     content: '',
+ },
+
+ methods: {
+     publishPost: function() {
+
+         var newPost = {
+             title: this.title,
+             username: this.username,
+             date: this.date,
+             content: this.content
+         }
+
+         blogVue.posts.push(newPost)
+
+         this.title = ''
+         this.username = ''
+         this.date = ''
+         this.content = ''
+     }
+ }
 })
 </script>
 
