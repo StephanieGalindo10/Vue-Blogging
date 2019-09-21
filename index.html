@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <h1>Welcome to My Blog Site!</h1>
-  
+<section id="background">
 <div id='blogPosts'>
     <blog-post
         v-for='post in posts'
@@ -18,7 +18,7 @@
 </div>
 
 <div id='blogPostCreation'>
-    <h2>Make a new blog post</h2>
+    <h2 id= "startBlog">Make a new blog post</h2>
     <input v-model='title'><br>
     <input v-model='username'><br>
     <input v-model='date'><br>

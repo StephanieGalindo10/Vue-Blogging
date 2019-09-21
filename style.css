@@ -3,6 +3,19 @@ html, body {
     padding: 10px;
     clear: both;
     float: left;
+    background-image: url(./images/hipster-mum-Ri17WyRuclo-unsplash.jpg);
+    background-size:100% 100%;
+  
+}
+#background{
+    background-image: url(./images/plush-design-studio-y7GlIdTUOvo-unsplash.jpg);
+    background-size:100% 100%;
+    
+    
+    
+}
+#startBlog{
+    background-color: aliceblue;
 }
 
 #singleBlogPost {
@@ -11,7 +24,8 @@ html, body {
     border-width: 3px;
     border-style: solid;
     border-color: rgb(36, 80, 56);
-
+    background-color: aliceblue;
+    
 }
 
 #blogPostCreation{
