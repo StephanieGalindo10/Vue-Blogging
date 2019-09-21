@@ -1,6 +1,6 @@
 # Vue-Blogging
 
-Inspirations: I wanted to create a todo list that would allow the user to add Blog post using Vue.js. Building a blog using post template and build blog post componets in Vue.
+Inspirations: I wanted to create a blog post website that would allow the user to add Blog post using Vue.js. Building a blog using post template and build blog post componets in Vue.
 
 
 Theme: Created a women theme blog for updating their simple post. 
