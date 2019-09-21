@@ -8,14 +8,14 @@ Theme: Created a women theme blog for updating their simple post.
 ## LIVE LINK 
 Link :https://stephaniegalindo10.github.io/TodoList-Minimalism/
 
-![To DO List Website](https://github.com/StephanieGalindo10/TodoList/blob/master/media/todolist.png)
+![Vue-Blogging Website](https://github.com/StephanieGalindo10/Vue-Blogging/blob/master/images/Screen%20Shot%202019-09-21%20at%209.49.33%20AM.png)
 
 
 
 ## Technologies Used 
 * HTML
 * CSS
-*Vue.js
+* Vue.js
 
 
 
