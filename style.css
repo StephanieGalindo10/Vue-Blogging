@@ -13,28 +13,39 @@ html, body {
     
     
     
+
 }
-#startBlog{
+#welcometext{
     background-color: aliceblue;
+    text-align: center;
+    margin-top: 20;
 }
 
+#startBlog{
+    background-color: rgb(233, 224, 238);
+    text-align: center;
+}
 #singleBlogPost {
     padding: 10px;
     margin-bottom: 50px;
     border-width: 3px;
     border-style: solid;
-    border-color: rgb(36, 80, 56);
+    border-color: rgb(80, 36, 74);
     background-color: aliceblue;
     
 }
 
 #blogPostCreation{
-    border-width: 3px;
+    border-width: 6px;
     border-style: solid;
     border-color: rgb(0, 12, 43);
+    text-align: center;
 
 }
 #blogPostCreation> * {
     margin: 7px;
+    width: 700px;
+    height: 40px;
+    text-align: center;
 
 }
